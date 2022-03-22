@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
 }
 
 html{
@@ -15,21 +15,22 @@ html{
 .container{
     max-width: 1000px;
     margin: auto;
+    
 }
 
 header{
     position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
+    top: 10px;
+    right: 10px;
     background-color: transparent;
+    z-index: 1;
 }
 
 
 .nav ul li{
     display: inline-block;
     margin: 20px 10px ;
-    position: relative;
+    
 }
 
 a{
@@ -39,35 +40,39 @@ a{
 .round{
     background-color: white;
     color: inherit;
-    padding: 15px;
+    padding: 15px 20px;
     font-weight: bold;
-    position: absolute;
     left: 1000px;
     border-radius: 50%;
+
    
 }
 
 section{
     height: 100vh;
+    
 }
 
 #first{
     background-color: red;
+    position: relative;
 
 }
 
 #second{
     background-color: green;
+    position: relative;
 }
 
 #third{
     background-color: yellow;
+    position: relative;
 }
 
 .text{
     color: yellow;
     font-size: 50px;
-    font-weight: 800;
+    font-weight: 1000;
     text-align: center;
 }
 
@@ -75,13 +80,13 @@ section{
 .text-2{
     color: green;
     font-size: 50px;
-    font-weight: 800;
+    font-weight: 1000;
     text-align: center;
 }
 
-.box.pic{
-    position: absolute;
+.box-pic{
     top: 50%;
     left: 50%;
-    transform: translate(-50% -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
 }
