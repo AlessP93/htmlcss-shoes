@@ -14,19 +14,63 @@ body{
 }
 
 header{
-    background-color: red;
-
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: transparent;
 }
+
 
 .nav ul li{
     display: inline-block;
     margin: 20px 10px ;
-    text-align: right;
-    
+    position: relative;
+}
+
+a{
+    text-decoration: none;
 }
 
 .round{
     background-color: white;
-    color: black;
-    padding: 10px;
+    color: inherit;
+    padding: 15px;
+    font-weight: bold;
+    position: absolute;
+    left: 1000px;
+    border-radius: 50%;
+   
+}
+
+section{
+    height: 100vh;
+}
+
+#first{
+    background-color: red;
+
+}
+
+#second{
+    background-color: green;
+}
+
+#third{
+    background-color: yellow;
+}
+
+.text{
+    color: yellow;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+.text-2{
+    color: green;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
 }
