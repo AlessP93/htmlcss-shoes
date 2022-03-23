@@ -40,7 +40,7 @@ a{
 .round{
     background-color: white;
     color: inherit;
-    padding: 15px 20px;
+    padding: 15px 22px;
     font-weight: bold;
     left: 1000px;
     border-radius: 50%;
@@ -89,4 +89,9 @@ section{
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
+    text-align: center;
+}
+
+.box-pic > img{
+    max-width: 600px;
 }
